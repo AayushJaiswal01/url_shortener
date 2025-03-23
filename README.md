@@ -67,7 +67,7 @@ npm start
 ```sh
 curl -X POST https://url-shortener-6g8t.onrender.com/shorten \
      -H "Content-Type: application/json" \
-     -d '{"long_url": "https://example.com"}'
+     -d '{"long_url": "https://google.com"}'
 ```
 **Response:**
 ```json
@@ -84,7 +84,7 @@ curl -i https://url-shortener-6g8t.onrender.com/xrA7gG
 **Response:**
 ```http
 HTTP/2 301
-Location: https://example.com
+Location: https://google.com
 ```
 
 ### 3. Shorten with Custom Alias
