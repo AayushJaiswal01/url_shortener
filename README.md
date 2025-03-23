@@ -2,6 +2,12 @@
 
 A simple URL shortener service built using **Node.js, Express, Prisma, PostgreSQL, and Redis**.
 
+
+## Live Backend URL
+The backend is deployed at: **[https://url-shortener-6g8t.onrender.com](https://url-shortener-6g8t.onrender.com)**
+
+
+
 ## Features
 - Shorten long URLs and generate unique short codes
 - Redirect users to the original URL using short codes
