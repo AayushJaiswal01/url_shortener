@@ -1,0 +1,10 @@
+import StatsForm from "../../components/StatsForm";
+
+export default function Stats() {
+    return (
+        <div>
+            <h1>URL Stats</h1>
+            <StatsForm />
+        </div>
+    );
+}
