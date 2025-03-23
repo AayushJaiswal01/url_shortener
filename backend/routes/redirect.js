@@ -45,11 +45,12 @@ router.get("/:shortCode", async (req, res) => {
 const cleanUrl = (url) => {
   try {
     const urlObj = new URL(url.startsWith("http") ? url : `https://${url}`);
-    return urlObj.pathname + urlObj.search + urlObj.hash;
+    return urlObj.origin + urlObj.pathname + urlObj.search + urlObj.hash; // ✅ Preserve the full path with the domain
   } catch (error) {
     console.error(" URL Parsing Error:", error);
-    return "/";
+    return url; // ✅ Fallback to original URL if parsing fails
   }
 };
+
 
 export default router;
