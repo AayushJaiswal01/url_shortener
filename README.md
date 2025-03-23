@@ -7,7 +7,7 @@ A simple URL shortener service built using **Node.js, Express, Prisma, PostgreSQ
 The backend is deployed at: **[https://url-shortener-6g8t.onrender.com](https://url-shortener-6g8t.onrender.com)**
 
 ## Live Frontend URL
-The backend is deployed at: **[https://url-shortener-6g8t.onrender.com](https://url-shortener-pearl-psi.vercel.app/)**
+The frontend is deployed at: **[https://url-shortener-pearl-psi.vercel.app/](https://url-shortener-pearl-psi.vercel.app/)**
 
 
 
